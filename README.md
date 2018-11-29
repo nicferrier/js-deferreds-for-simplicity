@@ -68,7 +68,7 @@ function blah(options) {
   } = options;
   
   defaultValue.setValue("twenty");
-  console.log(option1, option2);
+  console.log(option1.valueOf(), option2);
 }
 ```
 
